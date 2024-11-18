@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f363e6fa-4dbd-4b84-8c2f-c5ec79868b06" name="Changes" comment="Creating structure and POM entries">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" afterDir="false" />
+    <list default="true" id="f363e6fa-4dbd-4b84-8c2f-c5ec79868b06" name="Changes" comment="Created the first test case, configurations are working well">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/pageFactoryLocators/HomePageLocators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.BankManagerLoginTest.executor": "Run",
-    "TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.BankManagerLoginTest.bankingManagerLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BankManagerLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.BankManagerLoginTest">
+}</component>
+  <component name="RunManager" selected="TestNG.BankManagerLoginTest.bankingManagerLoginTest">
     <configuration name="BankManagerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataDrivenEnd2End" />
       <extension name="coverage">
@@ -59,6 +59,24 @@
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.BankManagerLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankManagerLoginTest.bankingManagerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenEnd2End" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.BankManagerLoginTest" />
+      <option name="METHOD_NAME" value="bankingManagerLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -77,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BankManagerLoginTest.bankingManagerLoginTest" />
         <item itemvalue="TestNG.BankManagerLoginTest" />
         <item itemvalue="TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml" />
       </list>
@@ -107,12 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731771529664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created the first test case, configurations are working well">
+      <option name="closed" value="true" />
+      <created>1731776686670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731776686670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the project" />
     <MESSAGE value="Creating structure and POM entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating structure and POM entries" />
+    <MESSAGE value="Created the first test case, configurations are working well" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the first test case, configurations are working well" />
   </component>
 </project>

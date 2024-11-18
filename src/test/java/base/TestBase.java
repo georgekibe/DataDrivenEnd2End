@@ -56,11 +56,7 @@ public class TestBase {
         logger.debug("Navigated to: " + config.getProperty("siteurl"));
 
         webDriver.manage().window().maximize();
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
 
     }
 
