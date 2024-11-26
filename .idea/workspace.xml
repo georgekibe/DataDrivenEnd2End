@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f363e6fa-4dbd-4b84-8c2f-c5ec79868b06" name="Changes" comment="Created the first test case, configurations are working well">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/pageFactoryLocators/HomePageLocators.java" afterDir="false" />
+    <list default="true" id="f363e6fa-4dbd-4b84-8c2f-c5ec79868b06" name="Changes" comment="fisrt test cases works &gt;&gt; Connection between POM Class + Test Case + Base Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" afterDir="false" />
@@ -47,7 +46,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.BankManagerLoginTest.bankingManagerLoginTest">
+  <component name="RunManager" selected="TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml">
     <configuration name="BankManagerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataDrivenEnd2End" />
       <extension name="coverage">
@@ -95,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BankManagerLoginTest.bankingManagerLoginTest" />
-        <item itemvalue="TestNG.BankManagerLoginTest" />
         <item itemvalue="TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml" />
+        <item itemvalue="TestNG.BankManagerLoginTest" />
+        <item itemvalue="TestNG.BankManagerLoginTest.bankingManagerLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +133,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731776686670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fisrt test cases works &gt;&gt; Connection between POM Class + Test Case + Base Class">
+      <option name="closed" value="true" />
+      <created>1731906765033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731906765033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the project" />
     <MESSAGE value="Creating structure and POM entries" />
     <MESSAGE value="Created the first test case, configurations are working well" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the first test case, configurations are working well" />
+    <MESSAGE value="fisrt test cases works &gt;&gt; Connection between POM Class + Test Case + Base Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="fisrt test cases works &gt;&gt; Connection between POM Class + Test Case + Base Class" />
   </component>
 </project>

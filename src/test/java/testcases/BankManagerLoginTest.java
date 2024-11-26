@@ -18,22 +18,24 @@ public class BankManagerLoginTest extends TestBase {
 
     private HomePageLocators homePageLocators ;
 
+/*
     @BeforeClass
     public void initializePageObjects(){
         homePageLocators = new HomePageLocators(webDriver);
     }
+*/
 
     @Test
     public void bankingManagerLoginTest(){
 
-        System.out.println("Webdriver initialized: " + webDriver);
+      /*  System.out.println("Webdriver initialized: " + webDriver);
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
-//        homePageLocators.bankManagerLogin.click();
+        homePageLocators.bankManagerLogin.click();*/
 
 
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
