@@ -4,12 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.log4testng.Logger;
-import utilities.pageFactoryLocators.HomePageLocators;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -21,8 +18,6 @@ public class TestBase {
     public static Logger logger = Logger.getLogger(TestBase.class);
     public static Properties config = new Properties();
     public static FileInputStream fileInputStream;
-
-    public HomePageLocators homePageLocators;
 
 
     @BeforeSuite
@@ -61,15 +56,7 @@ public class TestBase {
 
         webDriver.manage().window().maximize();
 
-        initializePageObjects();
 
-
-    }
-
-    public void initializePageObjects() {
-        homePageLocators = new HomePageLocators(webDriver);
-        PageFactory.initElements(webDriver, this);
-        System.out.println("Driver passed to HomePageLocators: " + webDriver);
     }
 
 
@@ -84,3 +71,7 @@ public class TestBase {
 
 
 }
+
+
+
+

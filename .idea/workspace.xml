@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f363e6fa-4dbd-4b84-8c2f-c5ec79868b06" name="Changes" comment="fisrt test cases works &gt;&gt; Connection between POM Class + Test Case + Base Class">
+    <list default="true" id="f363e6fa-4dbd-4b84-8c2f-c5ec79868b06" name="Changes" comment="Starting to update the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" afterDir="false" />
@@ -35,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.BankManagerLoginTest.bankingManagerLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BankManagerLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.BankManagerLoginTest.bankingManagerLoginTest.executor": "Run",
+    "TestNG.BankManagerLoginTest.executor": "Run",
+    "TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml">
+}]]></component>
+  <component name="RunManager" selected="TestNG.BankManagerLoginTest.bankingManagerLoginTest">
     <configuration name="BankManagerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataDrivenEnd2End" />
       <extension name="coverage">
@@ -94,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml" />
-        <item itemvalue="TestNG.BankManagerLoginTest" />
         <item itemvalue="TestNG.BankManagerLoginTest.bankingManagerLoginTest" />
+        <item itemvalue="TestNG.BankManagerLoginTest" />
+        <item itemvalue="TestNG.E:/Stuff/Study/Automation Testing/DataDrivenEnd2End/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731906765033</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Starting to update the code">
+      <option name="closed" value="true" />
+      <created>1732592076454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732592076454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +157,7 @@
     <MESSAGE value="Creating structure and POM entries" />
     <MESSAGE value="Created the first test case, configurations are working well" />
     <MESSAGE value="fisrt test cases works &gt;&gt; Connection between POM Class + Test Case + Base Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="fisrt test cases works &gt;&gt; Connection between POM Class + Test Case + Base Class" />
+    <MESSAGE value="Starting to update the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting to update the code" />
   </component>
 </project>
